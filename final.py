@@ -138,8 +138,7 @@ class Admin:
             print("Bankrupt feature enabled")
         else:
             print("Bankrupt feature disabled")
-
-   
+ 
 bank = Bank()
 admin = Admin("admin@example.com", bank)
 
@@ -171,7 +170,6 @@ def admin_menu(bank):
             print()
             admin.create_account(name, email, address, acc_type, bank)
             
-
         elif admin_choice == "2":
             email = input("Enter user's email to delete account: ")
             print()
